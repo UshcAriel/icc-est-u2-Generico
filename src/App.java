@@ -14,9 +14,10 @@ public class App {
 
         System.out.println("Caja de texto: " + texto.getT());
         System.out.println("Caja de entero: " + numero.getT());
+        System.out.println("Caja de decimal: " + decimal.getT());
         System.out.println("¿La caja de texto esta vacia? " + boleano.getT());
 
-        
+
         System.out.println("                        ");
         System.out.println("                        ");
         System.out.println("                        ");
