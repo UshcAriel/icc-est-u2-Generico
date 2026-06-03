@@ -9,11 +9,14 @@ public class App {
         Caja<String> texto = new Caja<String>("Hola mundo");
         Caja<Integer> numero = new Caja<Integer>(100);
         Caja<Double> decimal = new Caja<Double>(9.75);
+        Caja<Boolean> boleano = new Caja<Boolean>(false);
 
 
         System.out.println("Caja de texto: " + texto.getT());
         System.out.println("Caja de entero: " + numero.getT());
-        System.out.println("Caja de decimal: " + decimal.getT());
+        System.out.println("¿La caja de texto esta vacia? " + boleano.getT());
+
+        
 
 
 
