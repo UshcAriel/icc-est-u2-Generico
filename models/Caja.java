@@ -12,6 +12,10 @@ public class Caja<T> {
         this.t = t;
     }
 
+    public Caja(T t) {
+        this.t = t;
+    }
+
     
     
 }
