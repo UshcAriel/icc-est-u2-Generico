@@ -16,13 +16,16 @@ public class App {
         System.out.println("Caja de entero: " + numero.getT());
         System.out.println("¿La caja de texto esta vacia? " + boleano.getT());
 
+        System.out.println("                        ");
+        System.out.println("                        ");
+
         
 
 
 
 
 
-        System.out.println("--- Uso de Caja<T> ---");
+        System.out.println("--- Uso de Par<K, V> ---");
         Par<Integer,String> Clave_uno = new Par<Integer,String>(1,"Juan Pérez");
         Par<String, Integer> Clave_dos = new Par<String,Integer>("Edad", 20);
         Par<String, Double> Clave_tres = new Par<String, Double>("Promedio", 8.75);
